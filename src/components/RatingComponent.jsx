@@ -30,7 +30,7 @@ function RatingComponent() {
                   }}
                   className={`flex m-2 w-10 h-10 justify-center items-center rounded-full shadow-md shadow-gray-900 bg-gray-800  cursor-pointer  font-semibold hover:text-black ${
                     background === number
-                      ? "bg-orange-500 text-white hover:bg-orange-500 "
+                      ? "bg-orange-500 text-white hover:bg-orange-500 hover:text-white "
                       : "bg-gray-800 hover:bg-white"
                   }`}
                 >
